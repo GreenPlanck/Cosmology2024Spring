@@ -3,11 +3,20 @@
 After you finish your sampler code, test it!
 
 ## toy model
-We test with a toy model 
-$$y=mx$$
-while our obersvation data is contained by noise.$$
-\hat y=mx+N
+``` markdown
 $$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
+```
+
+We test with a toy model 
+$$y=mx$$  
+while our obersvation data is contained by noise.
+$$\hat y=mx+N$$
 The noise follows a normal distribution with a known variance;
 $$
 N\sim\mathcal N(\mu=0,\sigma=2)
