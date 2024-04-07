@@ -5,8 +5,7 @@ After you finish your sampler code, test it!
 ## toy model
 We test with a toy model 
 $$y=mx$$
-while our obersvation data is contained by noise.
-$$
+while our obersvation data is contained by noise.$$
 \hat y=mx+N
 $$
 The noise follows a normal distribution with a known variance;
