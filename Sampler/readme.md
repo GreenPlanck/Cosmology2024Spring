@@ -3,7 +3,7 @@
 After you finish your sampler code, test it!
 
 ## toy model
-``` markdown
+
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
@@ -11,7 +11,7 @@ $$
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
 \end{vmatrix}
 $$
-```
+
 
 We test with a toy model 
 $$y=mx$$  
