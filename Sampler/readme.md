@@ -8,9 +8,10 @@ We test with a toy model
 $$
 y=mx
 $$
-
 while our obersvation data is contained by noise.
-$$\hat y=mx+N$$
+$$
+\hat y=mx+N
+$$
 The noise follows a normal distribution with a known variance;
 $$
 N\sim\mathcal N(\mu=0,\sigma=2)
