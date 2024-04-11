@@ -104,3 +104,11 @@ with three free parameters $H_0,\Omega_m,\Omega_b$​. New model can be easily i
 >
 > 1. Sample your theory
 > 2. Compare with some public MCMC code, e.g. montepython/emcee
+
+
+
+## Reference
+
+https://zhuanlan.zhihu.com/p/108258020
+
+https://exowanderer.medium.com/bayes-to-mcmc-with-examples-in-python-4a2da80cc1
