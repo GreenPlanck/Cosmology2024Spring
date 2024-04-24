@@ -1,5 +1,5 @@
 # z, quantity, sigma, type (D_V/rs=3, Dv/Mpc=4, DA/rs=5, c/Hrs=6, rs/D_v=7)
-    
+
 6DF    0.106   0.327   0.015    7
 LOWZ    0.32    8.47    0.17    3
 CMASS   0.57    13.77   0.13    3

@@ -1,0 +1,31 @@
+#------Experiments to test (separated with commas)-----
+# The following likelihoods are a suggested setup for BAO-only data as of eBOSS DR16
+# Note that bao_smallz_2014 includes SDSS DR7 MGS and 6dFGS data
+# and eBOSS_DR16_gal_QSO includes BOSS DR12 LOWZ, CMASS and LRG data
+# See the individual likelihoods in montepython/likelihoods for relevant references
+data.experiments=['bao_boss']
+
+# Cosmological parameters list
+# Priors from table 9 of arXiv: 2007.08991
+data.parameters['Omega_m']    = [ 0.295,   0.1, 0.9,     0.02,    1, 'cosmo']
+data.parameters['Omega_b']      = [  0.0468,   0.001, 0.3,      0.004, 1, 'cosmo']
+data.parameters['H0']      = [  70,   20, 100,      1, 1, 'cosmo']
+
+# Derived parameters list
+data.parameters['Omega_Lambda'] = [0,       None, None, 0,1,  'derived']
+
+# Fixed cosmological parameters
+data.cosmo_arguments['n_s'] = 0.96
+data.cosmo_arguments['ln10^{10}A_s'] = 3.05
+data.cosmo_arguments['tau_reio'] = 0.06
+# Three massive neutrinos with sum(mnu)=0.06eV and Neff = 3.044
+data.cosmo_arguments['N_ur'] = 0.00441
+data.cosmo_arguments['N_ncdm'] = 1
+data.cosmo_arguments['deg_ncdm'] = 3
+data.cosmo_arguments['m_ncdm'] = 0.02
+data.cosmo_arguments['T_ncdm'] = 0.71611
+
+#------ Mcmc parameters ----
+
+data.N=10
+data.write_step=5
